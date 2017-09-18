@@ -76,18 +76,18 @@ export default class Landing extends Component {
 			</div>
 			</header>
 			<section id="content" style={{backgroundColor:'#ffffff'}}>
-				<div style={{height: 650, background:"rgb(22,24,27) url('/dist/images/grad_grid_overlay.png')", backgroundSize:'contain'}}>
+				<div style={{height: 650, background:"rgb(22,24,27) url('//src/assets/images/grad_grid_overlay.png')", backgroundSize:'contain'}}>
 					<div className="text-center wrapper">
 						<div className="m-t-xl row m-b-xl">
 							<div className="col-md-6 col-md-offset-3">
-							<img src="/dist/images/react-logo-large.png" style={{opacity:'0.8'}} width="250" />
+							<img src="/src/assets/images/react-logo-large.png" style={{opacity:'0.8'}} width="250" />
 							<div className="h3 text-white m-b-md">Admin application template built with React and Redux</div>
 							<div className="h4 text-muted m-b-xl">Customizable and extendable UI that allows you to focus on UX.</div>
 							<div className="m-b-xl">
 							<a href="/" target="_blank"><Button label="Live demo" color="btn-info" /></a>
 							</div>
 							<div className="p-r m-t-xl">
-								<img style={{width:'100%'}} src="/dist/images/macbook.png" />
+								<img style={{width:'100%'}} src="/src/assets/images/macbook.png" />
 							</div>
 							</div>
 						</div>
@@ -119,7 +119,7 @@ export default class Landing extends Component {
 						    </div>
 
 							<div className="col-sm-6 col-sm-offset-1 text-left">
-								<img style={{height:400}} src="/dist/images/mockup-1.png" />
+								<img style={{height:400}} src="/src/assets/images/mockup-1.png" />
 						    </div>
 						</div>
 					</div>		
@@ -129,7 +129,7 @@ export default class Landing extends Component {
 						<div className="row row-padded row-bordered row-centered">
 						    
 							<div className="col-sm-6 text-left">
-								<img style={{height:400}} className="pull-right" src="/dist/images/mockup-2a.png" />
+								<img style={{height:400}} className="pull-right" src="/src/assets/images/mockup-2a.png" />
 						    </div>
 
 						    <div className="col-sm-5 col-sm-offset-1 text-left m-t-mega">
@@ -154,7 +154,7 @@ export default class Landing extends Component {
 						    </div>
 
 							<div className="col-sm-6 col-sm-offset-1 text-left">
-								<img style={{height:400}} src="/dist/images/mockup-4.png" />
+								<img style={{height:400}} src="/src/assets/images/mockup-4.png" />
 						    </div>
 						</div>
 					</div>	
@@ -164,7 +164,7 @@ export default class Landing extends Component {
 						<div className="row row-padded row-bordered row-centered">
 						    
 							<div className="col-sm-6 text-left">
-								<img style={{height:400}} className="pull-right" src="/dist/images/mockup-3.png" />
+								<img style={{height:400}} className="pull-right" src="/src/assets/images/mockup-3.png" />
 						    </div>
 
 						    <div className="col-sm-5 col-sm-offset-1 text-left m-t-xl">

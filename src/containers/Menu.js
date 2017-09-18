@@ -53,7 +53,7 @@ export default class Menu extends Component {
               <i className="fa fa-bars" />
             </a>
             <div className="text-center tophead">
-              <img width="25" src="/dist/images/react-logo.png" /><br />
+              <img width="25" src="/src/assets/images/react-logo.png" /><br />
               <span className="text-center" style={{ lineHeight: "21px", fontWeight: "bold" }}>
                 Admin
               </span>

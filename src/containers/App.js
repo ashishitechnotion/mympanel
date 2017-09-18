@@ -16,7 +16,8 @@ import Header from './Header';
 import Menu from './Menu';
 import Signup from './Signup';
 
-import { fetchMe, auth, signup, logout, isAuthenticated } from '../actions';
+//import { fetchMe, auth, signup, logout, isAuthenticated } from '../actions';
+import { fetchMe, auth, signup, logout, isAuthenticated } from '../../store/actions';
 
 var shallowCompare = require('react-addons-shallow-compare');
 

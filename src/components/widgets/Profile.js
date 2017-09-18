@@ -17,7 +17,7 @@ export default class Profile extends Component {
 			<li className="dropdown">
         <a href="#" className="dropdown-toggle" data-toggle="dropdown">
           <span className="thumb-sm avatar pull-left">
-            <img src={this.props.profile ? this.props.profile.avatar : ''}/>      
+            <img src=""/>      
           </span>
           <b className="caret"></b>
         </a>

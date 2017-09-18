@@ -13,7 +13,11 @@ import { connect } from 'react-redux';
 import { Link, browserHistory } from 'react-router';
 //import Profile from '../components/widgets/Profile';
 
-import { selectApp, logout } from '../actions';
+// import { selectApp, logout } from '../actions';
+// import EasyPie from '../components/charts/EasyPie';
+
+
+import { selectApp, logout } from '../../store/actions';
 import EasyPie from '../components/charts/EasyPie';
 
 //import ReduxOutlet from '../outlets/ReduxOutlet';
@@ -27,8 +31,11 @@ import EasyPie from '../components/charts/EasyPie';
 //import ProgressBar from '../components/charts/ProgressBar';
 
 
- import {I, Panel, Button} from '../components/ui/';
+import {I, Panel, Button} from '../components/ui/';
 import {Row, Col, Page} from '../components/ui/Layout';
+
+
+
 
  var shallowCompare = require('react-addons-shallow-compare');
 

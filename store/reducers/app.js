@@ -9,11 +9,17 @@
  */
 
 import Cookies from 'cookies-js';
-import Config from '../config';
+//import Config from '../config';
+
+import Config from '../../config';
+
+// import {
+//   USER_AUTH, USER_AUTH_REQUEST, USER_IS_AUTHENTICATED, USER_LOGOUT
+// } from '../actions';
 
 import {
-  USER_AUTH, USER_AUTH_REQUEST, USER_IS_AUTHENTICATED, USER_LOGOUT
-} from '../actions';
+	USER_AUTH, USER_AUTH_REQUEST, USER_IS_AUTHENTICATED, USER_LOGOUT
+  } from '../actions';
 
 const initialState = checkCookie();
 

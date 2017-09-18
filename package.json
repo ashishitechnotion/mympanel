@@ -5,9 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buildprod": "NODE_ENV=production webpack index.js dist/js/bundle.js --config webpack.config.production.js",
-    "s3": "s3-upload",
-    "start": "node server.js"
+    "buildprod": "NODE_ENV=production webpack -p index.js dist/js/bundle.js --config webpack.config.production.js",
+     "start": "node server.js"
   },
   "author": "Andrew Wilson <andrew@lightsinthesky.io> (http://lightsinthesky.io/)",
   "license": "LicenseRef-LICENSE",

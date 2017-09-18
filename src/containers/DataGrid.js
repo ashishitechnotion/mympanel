@@ -11,7 +11,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import LocalReduxOutlet from '../outlets/LocalReduxOutlet';
+//import LocalReduxOutlet from '../outlets/LocalReduxOutlet';
+import LocalReduxOutlet from '../../store/outlets/LocalReduxOutlet';
 
 import DataTable from '../components/data/DataTable';
 import {Panel} from '../components/ui/';

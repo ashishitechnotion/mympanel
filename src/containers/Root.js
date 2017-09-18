@@ -13,8 +13,10 @@ import { Provider } from "react-redux";
 import { Router, Route, Link, browserHistory, IndexRoute } from "react-router";
 import { syncHistoryWithStore, routerReducer } from "react-router-redux";
 
-import configureStore from "../store/configureStore";
+//import configureStore from "../store/configureStore";
+import configureStore from "../../store/configureStore";
 
+//import Landing from "./Landing";
 import Landing from "./Landing";
 
 import App from "./App";

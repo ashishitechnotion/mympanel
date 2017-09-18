@@ -14,9 +14,13 @@ import { createStore, applyMiddleware, combineReducers, compose } from 'redux';
 import thunkMiddleware from 'redux-thunk';
 import { routerReducer } from 'react-router-redux'
 
-import promiseMiddleware from '../middleware/promiseMiddleware';
+// import promiseMiddleware from '../middleware/promiseMiddleware';
+// import loggerMiddleware from 'redux-logger';
+// import * as reducers from '../reducers/';
+
+import promiseMiddleware from './middleware/promiseMiddleware';
 import loggerMiddleware from 'redux-logger';
-import * as reducers from '../reducers/';
+import * as reducers from './reducers/';
 
 // create reducer from outlets, custom reducers and our router
 const reducer = combineReducers({...reducers, routing:routerReducer});
@@ -38,8 +42,8 @@ export default function configureStore(initialState) {
                 );
 	if (module.hot) {
     // Enable Webpack hot module replacement for reducers
-    module.hot.accept('../reducers', () => {
-      const nextRootReducer = require('../reducers/index');
+    module.hot.accept('./reducers', () => {
+      const nextRootReducer = require('./reducers/index');
       store.replaceReducer(nextRootReducer);
     });
   }
